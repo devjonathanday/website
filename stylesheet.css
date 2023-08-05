@@ -1,44 +1,122 @@
-html, body
-{
+html,
+body {
     margin: 0;
     padding: 0;
-    background-color:rgb(64, 64, 64);
+    background-color: rgb(64, 64, 64);
 }
 
-h1, h2
-{
+h1 {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 5px;
-    font-family:bahnschrift;
+    font-family: bahnschrift;
     line-height: 50px;
-    color:rgb(200, 200, 200);
-    text-align:center;
+    color: rgb(200, 200, 200);
+    text-align: center;
     background-color: rgb(35, 35, 35);
 }
 
-h3
-{
+p.name {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+p.jobTitle {
+    font-size: 35px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    padding: 30px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: bahnschrift;
+    line-height: 50px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+.game-container {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    padding: 25px;
+    background-color: rgb(51, 51, 51);
+}
+
+.image-space {
+    width: 250px;
+    margin-right: 25px;
+}
+
+.description-space {
+    flex-grow: 1;
+    display: inline;
+    vertical-align: auto;
+}
+
+.game-link {
+    font-family: bahnschrift;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+a.game-header {
+    font-family: bahnschrift;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.game-description {
+    color: rgb(200, 200, 200);
+    font-family: bahnschrift;
+    font-size: 20px;
+}
+
+img.game-image {
+    width: 250px;
+    height: 250px;
+}
+
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     margin: 0;
     padding-top: 0px;
     line-height: 0;
-    font-family:bahnschrift;
-    color:rgb(200, 200, 200);
-    text-align:center;
-    background-color:rgb(0, 79, 158);
+    font-family: bahnschrift;
+    font-style: italic;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    background-color: rgb(0, 79, 158);
 }
 
-p
-{
-    font-family:bahnschrift;
-    color:rgb(200, 200, 200);
-    text-align:center;
+a:link {
+    text-decoration: none;
+    color: rgb(0, 148, 255);
 }
 
-a:link    { text-decoration: none; color: rgb(0, 148, 255); }
-a:visited { text-decoration: none; color: rgb(0, 148, 255); }
-a:hover   { text-decoration: none; color: rgb(200, 200, 200); }
-a:active  { text-decoration: none; color: rgb(200, 200, 200); }
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 148, 255);
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: rgb(200, 200, 200);
+}
+
+a:active {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
